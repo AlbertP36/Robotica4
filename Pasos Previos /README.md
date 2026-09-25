@@ -2,4 +2,4 @@
 
 # Primer proyecto "Doblete intermitente" : esta hecho con el simulador de Arduino en Tinkercad.
 
-# Consiste en 
+# Consiste en dos diodos led que se tienen que encender simultáneamente en un lapso de 1 segundo 
