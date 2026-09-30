@@ -6,4 +6,4 @@ Consiste en dos diodos led que se tienen que encender simultáneamente en un lap
 
 En este ejercicio trabajamos estos scripts : Void Setup y Void Loop - Se usan para estructurar un programa , Void setup se usa para decirle a un programa lo que tiene que hacer al iniciarse para luego dar paso al loop , en este caso en el setup le damos corriente a los pines 12 y 13 (También se puede dar el imput para recibir datos ).En void loop se pone basicamente el programa para que se ejecute en bucle.
 Delay - Delay se usa para que el prgrama espere antes de su siguiente accion.
-Digital Write - Digital write se usa para dar ordenes a los pines y ponerlos en High o Low.
+Digital Write - Digital write se usa para dar ordenes a los pines y ponerlos en High o Low por ejemplo.
