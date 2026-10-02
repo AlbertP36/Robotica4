@@ -11,4 +11,8 @@ Digital Write - Digital write se usa para dar ordenes a los pines y ponerlos en 
 
 # Segundo proyecto "Pulsador" : esta hecho con el simulador de Arduino en Tinkercad.
 
-Consiste en una estructura principal de un pulsador , que cuando se aprieta , apaga el LED , si no el LED esta encendido en este programa también usamos resistencias para proteger el montaje (Dar info especifica de las resistencias ; NOTA). 
+Consiste en una estructura principal de un pulsador , que cuando se aprieta , apaga el LED , si no el LED esta encendido en este programa también usamos resistencias de 220 Ω para proteger el montaje.
+
+<img width="897" height="455" alt="image" src="https://github.com/user-attachments/assets/566012ad-1e4e-4c2d-9f3d-bdd76af50526" />
+ 
+En este ejercicio trabajamos estos scripts : -  #Define para definir una variable , Int que se usa también para definir una variable de tipo entero, If es una estructura condicional que funciona algo así : Es un "SI" , (Ej) si este pulsador esta encendido apago la luz etc.
