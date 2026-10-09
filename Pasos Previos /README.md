@@ -23,8 +23,30 @@ Esta practica consiste en usar un potenciómetro para ver en el portátil el val
 
 <img width="448" height="280" alt="image" src="https://github.com/user-attachments/assets/bcea4ab8-2eec-4083-8e88-e07652472faf" />
 
-Video
+(Video)
 
 En esta practica usamos los scripts - Float , es una variable que puede tener valores decimales - Serialbegin y Serialprintnl , se usan para mostrar valores en la pantalla del ordenador - AnalogRead , para leer valores en los pines Analogicos.
 
-# Tercer proyecto
+# Tercer proyecto "Mapeado de datos del potenciómetro." : esta hecho en fisico.
+
+Esta practica consiste en
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
