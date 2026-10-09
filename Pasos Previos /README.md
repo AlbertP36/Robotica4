@@ -16,3 +16,15 @@ Consiste en una estructura principal de un pulsador , que cuando se aprieta , ap
 <img width="897" height="455" alt="image" src="https://github.com/user-attachments/assets/566012ad-1e4e-4c2d-9f3d-bdd76af50526" />
  
 En este ejercicio trabajamos estos scripts : -  #Define para definir una variable , Int que se usa también para definir una variable de tipo entero, If es una estructura condicional que funciona algo así : Es un "SI" , (Ej) si este pulsador esta encendido apago la luz etc.
+
+# Tercer proyecto " Potenciómetro. Monitor serie." : esta hecho en fisico.
+
+Esta practica consiste en usar un potenciómetro para ver en el portátil el valor que marca.
+
+<img width="448" height="280" alt="image" src="https://github.com/user-attachments/assets/bcea4ab8-2eec-4083-8e88-e07652472faf" />
+
+Video
+
+En esta practica usamos los scripts - Float , es una variable que puede tener valores decimales - Serialbegin y Serialprintnl , se usan para mostrar valores en la pantalla del ordenador - AnalogRead , para leer valores en los pines Analogicos.
+
+# Tercer proyecto
