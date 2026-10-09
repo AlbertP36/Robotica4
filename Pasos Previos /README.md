@@ -29,7 +29,11 @@ En esta practica usamos los scripts - Float , es una variable que puede tener va
 
 # Tercer proyecto "Mapeado de datos del potenciómetro." : esta hecho en fisico.
 
-Esta practica consiste en
+Esta practica es igual que la anterior pero se usa el script del mapeado.
+
+(Foto)
+
+Aqui usamos solo el script de el mapeado que consiste:
 
 
 
