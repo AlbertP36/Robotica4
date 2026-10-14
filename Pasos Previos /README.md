@@ -31,9 +31,11 @@ En esta practica usamos los scripts - Float , es una variable que puede tener va
 
 Esta practica es igual que la anterior pero se usa el script del mapeado.
 
-(Foto)
+<img width="465" height="302" alt="image" src="https://github.com/user-attachments/assets/3cbacaf1-ab31-4c0e-8b3c-6b8313dec1e0" />
 
-Aqui usamos solo el script de el mapeado que consiste:
+(Video)
+
+Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes.
 
 # Cuarto proyecto "PWM" : esta hecho en fisico.
 
