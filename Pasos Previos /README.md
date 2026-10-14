@@ -35,13 +35,15 @@ Esta practica es igual que la anterior pero se usa el script del mapeado.
 
 Aqui usamos solo el script de el mapeado que consiste:
 
+# Cuarto proyecto "PWM" : esta hecho en fisico.
 
+En esta practica hay que usar un  potenciómetro para controlar la intensidad de una luz LED, también se usa una resistencia de 220 Ω.
 
+(Foto)
 
+(Video)
 
-
-
-
+En esta practica se usan los scripts:
 
 
 
