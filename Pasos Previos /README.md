@@ -35,17 +35,17 @@ Esta practica es igual que la anterior pero se usa el script del mapeado.
 
 (Video)
 
-Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes.
+Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los numeros decimales.
 
 # Cuarto proyecto "PWM" : esta hecho en fisico.
 
 En esta practica hay que usar un  potenciómetro para controlar la intensidad de una luz LED, también se usa una resistencia de 220 Ω.
 
-(Foto)
+<img width="925" height="407" alt="image" src="https://github.com/user-attachments/assets/f2177929-98a9-46b6-9fd7-9363f10cb4ce" />
 
 (Video)
 
-En esta practica se usan los scripts:
+En esta practica no se usan scripts nuevos.
 
 
 
