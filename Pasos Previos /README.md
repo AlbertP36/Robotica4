@@ -47,8 +47,15 @@ En esta practica hay que usar un  potenciómetro para controlar la intensidad de
 
 En esta practica no se usan scripts nuevos.
 
+# Reto no guiado 1:
 
+Esta practica es la fusión de todos los anteriores proyecto usando un poco de cada uno , consiste en controlar el brillo de 5 diodos LED haciendo que cuando uno se encienda totalmente el siguiente comience a iluminarse y en reversa para ello se usan 5 diodos una resistencia el potenciómetro y bastantes cables.
 
+(Foto C)
+(Foto M)
+(Video)
+
+En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el momento.
 
 
 
