@@ -33,25 +33,6 @@ Esta practica es igual que la anterior en montaje y prácticamente en código pe
 
 <img width="465" height="302" alt="image" src="https://github.com/user-attachments/assets/3cbacaf1-ab31-4c0e-8b3c-6b8313dec1e0" />
 
-int lecturapoten = 0;
-int potenciometro = A0;
-long result = 0;
-String rx_str = "";
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  if (Serial.available() > 0) {
-    rx_str = Serial.readStringUntil('\n');
-    result = map(rx_str.toInt(), 2, 38, 6, 42);
-  }
-
-  lecturapoten = analogRead(potenciometro);
-  Serial.println(lecturapoten);
-  delay(1000);
-
 https://www.youtube.com/watch?v=FqHJXZcOIXY
 
 Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los números decimales y estos se aproximan.
@@ -81,6 +62,36 @@ En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el mom
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+int lecturapoten = 0;
+int potenciometro = A0;
+long result = 0;
+String rx_str = "";
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    rx_str = Serial.readStringUntil('\n');
+    result = map(rx_str.toInt(), 2, 38, 6, 42);
+  }
+
+  lecturapoten = analogRead(potenciometro);
+  Serial.println(lecturapoten);
+  delay(1000);
 
 
 
