@@ -27,7 +27,7 @@ Esta practica consiste en usar un potenciómetro para ver en el portátil el val
 
 En esta practica usamos los scripts - Float , es una variable que puede tener valores decimales - Serialbegin y Serialprintnl , se usan para mostrar valores en la pantalla del ordenador - AnalogRead , para leer valores en los pines Analogicos.
 
-# Tercer proyecto "Mapeado de datos del potenciómetro." : esta hecho en fisico.
+# Cuarto proyecto "Mapeado de datos del potenciómetro." : esta hecho en fisico.
 
 Esta practica es igual que la anterior pero se usa el script del mapeado.
 
@@ -37,7 +37,7 @@ Esta practica es igual que la anterior pero se usa el script del mapeado.
 
 Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los numeros decimales.
 
-# Cuarto proyecto "PWM" : esta hecho en fisico.
+# Quinto proyecto "PWM" : esta hecho en fisico.
 
 En esta practica hay que usar un  potenciómetro para controlar la intensidad de una luz LED, también se usa una resistencia de 220 Ω.
 
