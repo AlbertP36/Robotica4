@@ -61,7 +61,26 @@ En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el mom
 
 # Código Reto No Guiado 1
 
+const int pinPot = A0;
+const int pinesLed[] = {3, 5, 6, 9, 10}; // Pines PWM para los 5 ledes
+const int numLeds = 5;
 
+void setup() {
+  for (int i = 0; i < numLeds; i++) {
+    pinMode(pinesLed[i], OUTPUT);
+  }
+}
+
+void loop() {
+  int valorPot = analogRead(pinPot);
+
+  int dutyCycleTotal = map(valorPot, 0, 1023, 0, 1275);
+
+  for (int i = 0; i < numLeds; i++) {
+    int dutyCycleLed = dutyCycleTotal - (i * 255);
+    
+  }
+}
 
 # Código Mapeado 
 
