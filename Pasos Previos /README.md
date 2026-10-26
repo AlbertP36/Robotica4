@@ -23,7 +23,7 @@ Esta practica consiste en usar un potenciómetro para ver en el portátil el val
 
 <img width="448" height="280" alt="image" src="https://github.com/user-attachments/assets/bcea4ab8-2eec-4083-8e88-e07652472faf" />
 
-(Video)
+https://www.youtube.com/watch?v=u_LzLcUyPQk
 
 En esta practica usamos los scripts - Float , es una variable que puede tener valores decimales - Serialbegin y Serialprintnl , se usan para mostrar valores en la pantalla del ordenador - AnalogRead , para leer valores en los pines Analógicos.
 
@@ -52,7 +52,7 @@ void loop() {
   Serial.println(lecturapoten);
   delay(1000);
 
-(Video)
+https://www.youtube.com/watch?v=FqHJXZcOIXY
 
 Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los números decimales y estos se aproximan.
 
@@ -62,7 +62,7 @@ En esta practica hay que usar un  potenciómetro para controlar la intensidad de
 
 <img width="925" height="407" alt="image" src="https://github.com/user-attachments/assets/f2177929-98a9-46b6-9fd7-9363f10cb4ce" />
 
-(Video)
+https://www.youtube.com/watch?v=ZORLppsyEgE
 
 En esta practica no se usan scripts nuevos (creo).
 
@@ -74,7 +74,7 @@ Esta practica es la fusión de todos los anteriores proyecto usando un poco de c
 
 <img width="4000" height="2250" alt="20261023_115924" src="https://github.com/user-attachments/assets/ab5c1f0a-ee23-4a5c-9cb3-fc404b4b9eaa" />
 
-(Video)
+https://www.youtube.com/watch?v=Mg_up4jKXAc
 
 En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el momento.
 
