@@ -39,7 +39,7 @@ Aquí usamos solo el script de el mapeado que consiste : En que dos valores dife
 
 # Quinto proyecto "PWM" : esta hecho en físico.
 
-En esta practica hay que usar un  potenciómetro para controlar la intensidad de una luz LED, también se usa una resistencia de 220 Ω.
+En esta practica hay que usar un  potenciómetro para controlar la intensidad de una luz LED, también se usa una resistencia de 220 Ω varios cables etc .
 
 <img width="925" height="407" alt="image" src="https://github.com/user-attachments/assets/f2177929-98a9-46b6-9fd7-9363f10cb4ce" />
 
@@ -59,20 +59,11 @@ https://www.youtube.com/watch?v=Mg_up4jKXAc
 
 En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el momento.
 
+# Código Reto No Guiado 1
 
 
 
-
-
-
-
-
-
-
-
-
-
-# CODIGO MAPEADO 
+# Código Mapeado 
 
 int lecturapoten = 0;
 int potenciometro = A0;
