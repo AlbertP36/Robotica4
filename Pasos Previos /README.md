@@ -72,7 +72,7 @@ En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el mom
 
 
 
-
+# CODIGO MAPEADO 
 
 int lecturapoten = 0;
 int potenciometro = A0;
