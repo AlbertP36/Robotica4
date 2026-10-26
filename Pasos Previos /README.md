@@ -33,9 +33,28 @@ Esta practica es igual que la anterior en montaje y prácticamente en código pe
 
 <img width="465" height="302" alt="image" src="https://github.com/user-attachments/assets/3cbacaf1-ab31-4c0e-8b3c-6b8313dec1e0" />
 
+int lecturapoten = 0;
+int potenciometro = A0;
+long result = 0;
+String rx_str = "";
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    rx_str = Serial.readStringUntil('\n');
+    result = map(rx_str.toInt(), 2, 38, 6, 42);
+  }
+
+  lecturapoten = analogRead(potenciometro);
+  Serial.println(lecturapoten);
+  delay(1000);
+
 (Video)
 
-Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los números decimales.
+Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los números decimales y estos se aproximan.
 
 # Quinto proyecto "PWM" : esta hecho en físico.
 
@@ -49,9 +68,10 @@ En esta practica no se usan scripts nuevos (creo).
 
 # Reto no guiado 1:
 
-Esta practica es la fusión de todos los anteriores proyecto usando un poco de cada uno , consiste en controlar el brillo de 5 diodos LED haciendo que cuando uno se encienda totalmente el siguiente comience a iluminarse y en reversa para ello se usan 5 diodos una resistencia el potenciómetro y bastantes cables.
+Esta practica es la fusión de todos los anteriores proyecto usando un poco de cada uno , consiste en controlar el brillo de 5 diodos LED haciendo que cuando uno se encienda totalmente el siguiente comience a iluminarse y en reversa para ello se usan 5 diodos una resistencia el potenciómetro y bastantes cables y resistencias.
 
 (Foto C)
+
 <img width="4000" height="2250" alt="20261023_115924" src="https://github.com/user-attachments/assets/ab5c1f0a-ee23-4a5c-9cb3-fc404b4b9eaa" />
 
 (Video)
