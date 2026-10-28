@@ -60,7 +60,16 @@ https://www.youtube.com/watch?v=Mg_up4jKXAc
 
 En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el momento.
 
+ # Sexto proyecto Ultrasonidos :
 
+En este proyecto vamos a usar un sensor de ultrasonidos : La función de el Ultrasonidos es detectar objetos en frente suya sea cual sea , logra esto al lazar sonidos y medir cuanto tardan en volver y esto determina la distancia a la que esta este objeto . En esta practica se  debe conectar el ultrasonidos teniendo en cuenta el PIN ya que el ultrasonidos tiene cuatro , de alimentacion son el PIN VCC y el PIN GND , y los de información son el PIN ECHO y PIN Trigger , y el ultrasonidos una vez conectado correctamente tiene que detectar un objeto delante suya y si es así se encenderá un diodo LED y si se aleja se apagara , se usa también una resistencia de 220 Ω .
 
+(Imagen C )
 
+(Video)
 
+ En este programa se usan los scripts : Se usan por primera vez una librería 
+
+# Codigo
+
+ 
