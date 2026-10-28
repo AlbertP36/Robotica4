@@ -31,7 +31,7 @@ En esta practica usamos los scripts - Float , es una variable que puede tener va
 
 Esta practica es igual que la anterior en montaje y prácticamente en código pero se usa el script del mapeado.
 
-<img width="465" height="302" alt="image" src="https://github.com/user-attachments/assets/3cbacaf1-ab31-4c0e-8b3c-6b8313dec1e0" />
+<img width="432" height="398" alt="image" src="https://github.com/user-attachments/assets/5f6f1579-06f1-4611-b40d-a2203a70a19a" />
 
 https://www.youtube.com/watch?v=FqHJXZcOIXY
 
@@ -51,57 +51,14 @@ En esta practica no se usan scripts nuevos (creo).
 
 Esta practica es la fusión de todos los anteriores proyecto usando un poco de cada uno , consiste en controlar el brillo de 5 diodos LED haciendo que cuando uno se encienda totalmente el siguiente comience a iluminarse y en reversa para ello se usan 5 diodos una resistencia el potenciómetro y bastantes cables y resistencias.
 
-(Foto C)
+<img width="522" height="391" alt="image" src="https://github.com/user-attachments/assets/b9c55473-e0b4-43fd-9b99-2450f89389e4" />
+
 
 <img width="4000" height="2250" alt="20261023_115924" src="https://github.com/user-attachments/assets/ab5c1f0a-ee23-4a5c-9cb3-fc404b4b9eaa" />
 
 https://www.youtube.com/watch?v=Mg_up4jKXAc
 
 En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el momento.
-
-# Código Reto No Guiado 1
-
-const int pinPot = A0;
-const int pinesLed[] = {3, 5, 6, 9, 10}; // Pines PWM para los 5 ledes
-const int numLeds = 5;
-
-void setup() {
-  for (int i = 0; i < numLeds; i++) {
-    pinMode(pinesLed[i], OUTPUT);
-  }
-}
-
-void loop() {
-  int valorPot = analogRead(pinPot);
-
-  int dutyCycleTotal = map(valorPot, 0, 1023, 0, 1275);
-
-  for (int i = 0; i < numLeds; i++) {
-    int dutyCycleLed = dutyCycleTotal - (i * 255);
-    
-  }
-}
-
-# Código Mapeado 
-
-int lecturapoten = 0;
-int potenciometro = A0;
-long result = 0;
-String rx_str = "";
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  if (Serial.available() > 0) {
-    rx_str = Serial.readStringUntil('\n');
-    result = map(rx_str.toInt(), 2, 38, 6, 42);
-  }
-
-  lecturapoten = analogRead(potenciometro);
-  Serial.println(lecturapoten);
-  delay(1000);
 
 
 
