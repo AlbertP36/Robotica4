@@ -70,8 +70,6 @@ En este proyecto vamos a usar un sensor de ultrasonidos : La función de el Ultr
 
 (Video)
 
- En este programa se usan los scripts : Se usan por primera vez una librería 
-
-Código : En este proyecto
+ En este programa se usan los scripts : Se usa por primera vez una librería , las librerías son códigos hechos previamente
 
  
