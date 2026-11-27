@@ -48,7 +48,7 @@ En esta practica hay que usar un potenciómetro para controlar la intensidad de 
 
 https://www.youtube.com/watch?v=ZORLppsyEgE
 
-En esta practica no se usan scripts nuevos (creo , revisar).
+En esta practica no se usan scripts nuevos.
 
 
 # Reto no guiado 1 : Esta hecho en fisico.
