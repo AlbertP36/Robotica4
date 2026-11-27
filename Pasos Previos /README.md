@@ -11,15 +11,16 @@ Digital Write - Digital write se usa para dar ordenes a los pines y ponerlos en 
 
 # Segundo proyecto "Pulsador" : esta hecho con el simulador de Arduino en Tinkercad.
 
-Consiste en una estructura principal de un pulsador , que cuando se aprieta , apaga el LED , si no el LED esta encendido en este programa también usamos resistencias de 220 Ω para proteger el montaje y los cables van conectados como se ve abajo en la foto pero como novedad se usa un cable para el pin de 5V para darle energía a el pulsador.
+Consiste en una estructura principal de un pulsador , que cuando se aprieta , apaga el LED , si no el LED esta encendido , en este programa también usamos resistencias de 220 Ω para proteger el montaje y los cables van conectados como se ve abajo en la foto pero como novedad se usa un cable para el pin de 5V para darle energía a el pulsador.
 
 <img width="897" height="455" alt="image" src="https://github.com/user-attachments/assets/566012ad-1e4e-4c2d-9f3d-bdd76af50526" />
  
 En este ejercicio trabajamos estos scripts : -  #Define para definir una variable , Int que se usa también para definir una variable de tipo entero, If es una estructura condicional que funciona algo así : Es un "SI" , (Ej) si este pulsador esta encendido apago la luz etc.
 
+
 # Tercer proyecto " Potenciómetro. Monitor serie." : esta hecho en físico.
 
-Esta practica consiste en usar un potenciómetro para ver en el portátil el valor que marca , el potenciómetro es un dispositivo que se puede rotar para subir o bajar el valor que marca , marca valores decimales asique se usan pines analógicos para su lectura , los potenciómetros pueden ser útiles por ejemplo para controlar la intensidad de algo como por ejemplo el volumen que produce un altavoz o la intensidad de una pistola de masajes.
+Esta practica consiste en usar un potenciómetro para ver en el portátil el valor que marca al girarlo , el potenciómetro es un dispositivo que se puede rotar para subir o bajar el valor que marca , marca valores decimales asique se usan pines analógicos para su lectura , los potenciómetros pueden ser útiles por ejemplo para controlar la intensidad de algo como por ejemplo el volumen que produce un altavoz o la intensidad de una pistola de masajes.
 
 <img width="448" height="280" alt="image" src="https://github.com/user-attachments/assets/bcea4ab8-2eec-4083-8e88-e07652472faf" />
 
@@ -27,29 +28,32 @@ https://www.youtube.com/watch?v=u_LzLcUyPQk
 
 En esta practica usamos los scripts - Float , es una variable que puede tener valores decimales - Serialbegin y Serialprintnl , se usan para mostrar valores en la pantalla del ordenador - AnalogRead , para leer valores en los pines Analógicos.
 
+
 # Cuarto proyecto "Mapeado de datos del potenciómetro." : esta hecho en físico.
 
-Esta practica es igual que la anterior en montaje y prácticamente en código pero se usa el script del mapeado.
+Esta practica es igual que la anterior en montaje y prácticamente en código , pero se usa el script del mapeado.
 
 <img width="432" height="398" alt="image" src="https://github.com/user-attachments/assets/5f6f1579-06f1-4611-b40d-a2203a70a19a" />
 
 https://www.youtube.com/watch?v=FqHJXZcOIXY
 
-Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los números decimales y estos se aproximan.
+Aquí usamos solo el script de el mapeado que consiste : En que dos valores diferentes sean equivalentes quitando así los números decimales y estos se aproximan para dejar el numero redondeado sin decimales.
+
 
 # Quinto proyecto "PWM" : esta hecho en físico.
 
-En esta practica hay que usar un  potenciómetro para controlar la intensidad de una luz LED, también se usa una resistencia de 220 Ω varios cables etc .
+En esta practica hay que usar un potenciómetro para controlar la intensidad de una luz LED, cuando aumentemos el valor del potenciómetro aumentara el brillo del diodo LED y si el valor disminuye el brillo se apagara lentamente hasta no iluminarse, este reto usa un diodo LED y un potenciometro también se usa una resistencia de 220 Ω varios cables etc .
 
 <img width="925" height="407" alt="image" src="https://github.com/user-attachments/assets/f2177929-98a9-46b6-9fd7-9363f10cb4ce" />
 
 https://www.youtube.com/watch?v=ZORLppsyEgE
 
-En esta practica no se usan scripts nuevos (creo).
+En esta practica no se usan scripts nuevos (creo , revisar).
 
-# Reto no guiado 1.
 
-Esta practica es la fusión de todos los anteriores proyecto usando un poco de cada uno , consiste en controlar el brillo de 5 diodos LED haciendo que cuando uno se encienda totalmente el siguiente comience a iluminarse y en reversa para ello se usan 5 diodos una resistencia el potenciómetro y bastantes cables y resistencias.
+# Reto no guiado 1 : Esta hecho en fisico.
+
+Esta practica es la fusión de todos los anteriores proyecto usando un poco de cada uno , consiste en controlar el brillo de 5 diodos LED haciendo que cuando uno se encienda totalmente al girar el potenciómetro el siguiente comience a iluminarse y en reversa , si se baja el valor del potenciómetro disminuirá el brillo hasta apagarse. Para este proyecto se usan 5 diodos una resistencia de 220 Ω el potenciómetro y bastantes cables y resistencias.
 
 <img width="522" height="391" alt="image" src="https://github.com/user-attachments/assets/b9c55473-e0b4-43fd-9b99-2450f89389e4" />
 
@@ -60,9 +64,10 @@ https://www.youtube.com/watch?v=Mg_up4jKXAc
 
 En este proyecto no se usan scripts nuevos se usan todos los vistos hasta el momento.
 
+
  # Sexto proyecto Ultrasonidos : Esta hecho en físico.
 
-En este proyecto vamos a usar un sensor de ultrasonidos : La función de el Ultrasonidos es detectar objetos en frente suya sea cual sea , logra esto al lazar sonidos y medir cuanto tardan en volver y esto determina la distancia a la que esta este objeto . En esta practica se  debe conectar el ultrasonidos teniendo en cuenta el PIN ya que el ultrasonidos tiene cuatro , de alimentacion son el PIN VCC y el PIN GND , y los de información son el PIN ECHO y PIN Trigger , y el ultrasonidos una vez conectado correctamente tiene que detectar un objeto delante suya y si es así se encenderá un diodo LED y si se aleja se apagara , se usa también una resistencia de 220 Ω .
+En este proyecto vamos a usar un sensor de ultrasonidos : La función de el Ultrasonidos es detectar objetos en frente suya sea cual sea , logra esto al lanzar sonidos y medir cuanto tardan en volver y esto determina la distancia a la que esta este objeto . En esta practica se  debe conectar el ultrasonidos teniendo en cuenta el PIN ya que el ultrasonidos tiene cuatro , de alimentacion son el PIN VCC y el PIN GND , y los de información son el PIN ECHO y PIN Trigger , y el ultrasonidos una vez conectado correctamente tiene que detectar un objeto delante suya y si es así se encenderá un diodo LED y si se aleja se apagara , se usa también una resistencia de 220 Ω .
 
 <img width="559" height="495" alt="image" src="https://github.com/user-attachments/assets/3dd29791-57a9-4db6-a26a-cc49cebb7bc2" />
 
@@ -70,6 +75,15 @@ En este proyecto vamos a usar un sensor de ultrasonidos : La función de el Ultr
 
 (Video)
 
- En este programa se usan los scripts : Se usa por primera vez una librería , las librerías son códigos hechos previamente
+ En este programa se usan los scripts : Se usa por primera vez una librería , las librerías son códigos y funciones hechas previamente que se suman para funcionar como los comandos basicos.
+
+
+ # Reto no guiado 2.
+
+ # Reto no guiado 3.
+
+
+# Reto no guiado 4.
+
 
  
